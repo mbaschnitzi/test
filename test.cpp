@@ -1,7 +1,11 @@
+#include "Ttest.h"
 #include <cstdio>
 
 int main(void)
 {
-	printf("Hello World!\n");
+	Ttest t = new Ttest();
+	t->test(1);
+	delete t;
+//	printf("Hello World!\n");
 	return 1;
 }
